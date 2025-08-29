@@ -56,7 +56,6 @@ export async function POST(req: Request) {
       )
       RETURNING *;
     `;
-
         return NextResponse.json(
             {
                 success: true,
